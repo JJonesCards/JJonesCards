@@ -1,3 +1,20 @@
 <!DOCTYPE html>
 <html>
 </html>
+<h1>JJonesCards - Card Entry Form</h1>
+
+<form action="#" method="post" enctype="multipart/form-data">
+  <label for="player">Player Name:</label><br>
+  <input type="text" id="player" name="player" required><br><br>
+
+  <label for="brand">Brand (e.g. Panini, Topps):</label><br>
+  <input type="text" id="brand" name="brand"><br><br>
+
+  <label for="type">Card Type (e.g. Auto, Patch, Rookie):</label><br>
+  <input type="text" id="type" name="type"><br><br>
+
+  <label for="image">Upload Image:</label><br>
+  <input type="file" id="image" name="image"><br><br>
+
+  <input type="submit" value="Add Card">
+</form>
