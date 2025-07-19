@@ -26,6 +26,8 @@
   </head>
   <body>
 
+    <img src="logo.jpeg" alt="JJonesCards Logo" style="display: block; max-width: 300px; margin: 20px auto;">
+
     <nav>
       <a href="#form">Add a Card</a>
       <a href="#submissions">View Cards</a>
